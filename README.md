@@ -1,2 +1,2 @@
 # Hostel-Management-System
-keep the files inside projects folder after downloading
+keep the files inside project folder after downloading
