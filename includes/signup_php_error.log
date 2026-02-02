@@ -1,0 +1,101 @@
+[25-Dec-2025 16:30:53 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7ff7e48cea1sm19985796b3a.45 - gsmtp
+[25-Dec-2025 16:30:53 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: EHLO localhost
+[25-Dec-2025 16:30:53 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2407:1400:aa3d:bdb0:fd16:283f:12ba:b0db]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[25-Dec-2025 16:30:53 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: STARTTLS
+[25-Dec-2025 16:30:54 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[25-Dec-2025 16:30:54 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: EHLO localhost
+[25-Dec-2025 16:30:54 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2407:1400:aa3d:bdb0:fd16:283f:12ba:b0db]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[25-Dec-2025 16:30:54 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: AUTH LOGIN
+[25-Dec-2025 16:30:55 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[25-Dec-2025 16:30:55 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: [credentials hidden]
+[25-Dec-2025 16:30:55 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[25-Dec-2025 16:30:55 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: [credentials hidden]
+[25-Dec-2025 16:30:55 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 235 2.7.0 Accepted
+[25-Dec-2025 16:30:55 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: MAIL FROM:<sthapitsuzal@gmail.com>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7ff7e48cea1sm19985796b3a.45 - gsmtp
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: RCPT TO:<maharjansujal@gmail.com>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7ff7e48cea1sm19985796b3a.45 - gsmtp
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: DATA
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7ff7e48cea1sm19985796b3a.45 - gsmtp
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Date: Thu, 25 Dec 2025 16:30:52 +0100
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: To: maharjansujal@gmail.com
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: From: Student Management System <sthapitsuzal@gmail.com>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Subject: Verify your Hostel Manager Account
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Message-ID: <qG5pfDfewNg2gpVRV8YHRvHcfKXIHgl8EinoHnnxI@localhost>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: MIME-Version: 1.0
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: <h3>Welcome, sujal!</h3>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:                  <p>Please click the link below to verify your email address (valid for 24 hours):</p>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:                  <a href='http://localhost/project/verify_hm.php?token=51fb63d593ff633ebb6d94dc0b92018b8ff12f7eb0b4aa5c9afe0d84e78ba68a'>http://localhost/project/verify_hm.php?token=51fb63d593ff633ebb6d94dc0b92018b8ff12f7eb0b4aa5c9afe0d84e78ba68a</a>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:                  <p>After verification, an admin will review and approve your manager account.</p>
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:
+[25-Dec-2025 16:30:56 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: .
+[25-Dec-2025 16:30:57 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250 2.0.0 OK  1766676659 d2e1a72fcca58-7ff7e48cea1sm19985796b3a.45 - gsmtp
+[25-Dec-2025 16:30:57 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: QUIT
+[25-Dec-2025 16:30:57 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7ff7e48cea1sm19985796b3a.45 - gsmtp
+[25-Dec-2025 16:30:58 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7ff7a93b516sm19685887b3a.6 - gsmtp
+[25-Dec-2025 16:30:58 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: EHLO localhost
+[25-Dec-2025 16:30:58 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2407:1400:aa3d:bdb0:fd16:283f:12ba:b0db]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[25-Dec-2025 16:30:58 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: STARTTLS
+[25-Dec-2025 16:30:59 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[25-Dec-2025 16:30:59 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: EHLO localhost
+[25-Dec-2025 16:30:59 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2407:1400:aa3d:bdb0:fd16:283f:12ba:b0db]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[25-Dec-2025 16:30:59 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: AUTH LOGIN
+[25-Dec-2025 16:31:00 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[25-Dec-2025 16:31:00 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: [credentials hidden]
+[25-Dec-2025 16:31:00 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[25-Dec-2025 16:31:00 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: [credentials hidden]
+[25-Dec-2025 16:31:00 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 235 2.7.0 Accepted
+[25-Dec-2025 16:31:00 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: MAIL FROM:<sthapitsuzal@gmail.com>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7ff7a93b516sm19685887b3a.6 - gsmtp
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: RCPT TO:<admin@gmail.com>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7ff7a93b516sm19685887b3a.6 - gsmtp
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: DATA
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7ff7a93b516sm19685887b3a.6 - gsmtp
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Date: Thu, 25 Dec 2025 16:30:57 +0100
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: To: admin@gmail.com
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: From: Student Management System <sthapitsuzal@gmail.com>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Subject: New Hostel Manager Signup Pending
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Message-ID: <Rr6WKJW0un8wt2pvQbg2kx7iUJj1o6mCVCYpdoFEPNA@localhost>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: MIME-Version: 1.0
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: <h3>New Hostel Manager Signup (Pending Verification)</h3>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:                           <p>User <b>sujal</b> (sujal sthapit) has signed up and is pending email verification and admin approval.</p>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:                           <p>Email: maharjansujal@gmail.com</p>
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER:
+[25-Dec-2025 16:31:01 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: .
+[25-Dec-2025 16:31:02 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 250 2.0.0 OK  1766676663 d2e1a72fcca58-7ff7a93b516sm19685887b3a.6 - gsmtp
+[25-Dec-2025 16:31:02 Europe/Berlin] [PHPMailer] CLIENT -> SERVER: QUIT
+[25-Dec-2025 16:31:02 Europe/Berlin] [PHPMailer] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7ff7a93b516sm19685887b3a.6 - gsmtp

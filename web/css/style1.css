@@ -1,0 +1,16 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+        }
+        /* Navbar */
+        .navbar {
+            background: #1e3a5f !important;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: #4cc9f0 !important;
+        }
